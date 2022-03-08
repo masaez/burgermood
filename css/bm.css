@@ -1,0 +1,616 @@
+/* ==========================================================================
+Global Styles
+========================================================================== */
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+
+
+    overflow-x: hidden;
+    font-family:'Montserrat','Questrial','Open Sans',sans-serif;
+    font-size: 14px;
+    color: #0d0d0d;
+    margin: 0;
+    webkit-tap-highlight-color: #fed136;
+    background-color: #fbed1a; 
+}
+.light-sep {
+  background: url(../img/menu/line-menu.png) no-repeat;
+  max-width: 254px;
+  height: 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+ul,
+ol{ 
+    list-style-position: inside;
+    margin: 0; 
+    padding: 0;
+}
+ul p{
+    line-height: 15px;
+}
+
+li p{
+    padding-bottom: 5px;
+}
+a,
+a:focus{
+    color: #fff;
+}
+a:hover{
+    color: #fbed1a;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    text-decoration: none;
+    outline: 0;
+}
+
+.mail {
+    color: #cc5638;
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+
+h1{
+    font-size: 62px;
+    color: #fff;
+    font-family:'a_love_of_thunderregular',sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'a_love_of_thunderregular','chawpregular',sans-serif;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 26px;
+    color: #000;
+    font-family:'a_love_of_thunderregular','Montserrat',sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-size: 20px;
+    color: #fbed1a;
+    font-family:'urgh_type_personal_useregular', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 15px;
+    color: #BBB;
+    font-family: 'arialbold','Questrial','Open Sans',sans-serif;
+    font-weight: 600;
+}
+h6 {
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+}
+
+
+
+p{
+    font-size: 10px;
+    color:#FFF;    
+    font-family: 'arialbold','Questrial','Open Sans',sans-serif;
+    font-weight: 600;
+    line-height: 1.30;
+    text-transform: uppercase;
+}
+
+.cuarentena  {
+  font-size: 20px;
+  color:#FFF; 
+}
+
+
+/* ==========================================================================
+Sliders Style
+========================================================================== */
+#owl-hero {
+  overflow: hidden;
+}
+#owl-hero, .item, .caption {
+    height: 100%;
+}
+#owl-hero .item {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#owl-hero .item .caption {
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  z-index: 15;
+}
+#owl-hero .item .caption h1 {
+  font-size: 34px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#owl-hero .item .caption h1 span {
+  font-weight: 700;
+}
+
+#owl-hero .item .caption .comentario {
+    position: absolute;
+    bottom: 100px;
+    right: 10%;
+    left: 10%;
+}
+#owl-hero .item .caption i{
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+}
+#owl-hero .item .caption h4 {
+    text-align: center;
+    color: #FFF;
+    margin: 0;
+}
+#owl-hero .owl-pagination {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 100%;
+  bottom: 5%;
+}
+#owl-hero .owl-pagination .owl-page.active span {
+  background: #fff;
+}
+#owl-hero .owl-pagination .owl-page span {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  opacity: 1;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#owl-hero .owl-buttons div {
+  font-size: 62px;
+  font-weight: 800;
+  opacity: 1;
+}
+#owl-hero .owl-buttons .owl-prev {
+  left: -60px;
+}
+#owl-hero .owl-buttons .owl-next {
+  right: -60px;
+}
+#owl-hero .owl-buttons .owl-prev,
+#owl-hero .owl-buttons .owl-next {
+  position: absolute;
+  background: transparent;
+  top: 50%;
+  height: 30px;
+  width: 30px;
+  line-height: 45px;
+  z-index: 20;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+#owl-hero:hover .owl-prev {
+  left: 50px;
+}
+#owl-hero:hover .owl-next {
+  right: 50px;
+}
+
+/* ==========================================================================
+Navbar
+========================================================================== */
+.navbar-default {
+    border-color: transparent;
+    background-color: #000;
+}
+
+.navbar-brand {
+    float: left;
+    padding:15px;
+}
+
+.navbar-default .navbar-brand {
+    font-family: 'nexa_rust_slabblack_shadow_01','chawpregular',sans-serif;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #cd7d00;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #615b00;
+    background-color: #fbed1a;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #d1c406;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: urgh_type_personal_useregular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #cec317;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fbed1a;
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fbed1a;
+    background-color: transparent;
+}
+/* ==========================================================================
+Sections
+========================================================================== */
+section {
+    padding: 100px 0 50px 0;
+    background-color: #222
+    background-repeat: repeat;
+    margin-top: 0;
+}
+  section h2 {
+    font-size: 45x;
+  }
+    /* ==========================================================================
+Menu Style
+========================================================================== */
+#menu {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #110e0d;
+}
+#menu h2 {
+  margin-top: 60px;
+}
+#menu .services-box .col-md-4 {
+  margin-bottom: 20px;
+}
+#menu .services-box .col-xs-12 {
+  text-align: left;
+}
+.team-menu{
+    padding: 0 20px;
+}
+.team-menu img {
+    margin: 20px 0 5px;
+}
+.team-menu li {
+    text-transform: uppercase;
+    font-family:'urgh_type_personal_useregular', cursive;
+    font-weight: 200;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #f6289d;
+    font-size: 25px;   
+}
+
+
+.team-menu li span {
+    font-family:'a_love_of_thunderregular', cursive;
+    float: right;
+    color: #FFF;
+    margin-top: 0;
+    font-size: 18px;
+
+}
+    /* ==========================================================================
+Contact Us Style
+========================================================================== */
+#contact {
+  background-color: #fbed1a;
+  padding: 60px 0 20px;
+  background-image: url(../img/contacto_back2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.contacto {
+  padding-top: 10px
+}
+#contact h2 {
+  text-transform: uppercase;
+  color: #000;
+}
+#contact p{
+    text-transform: none;
+    text-align: center;
+    font-family: "a_love_of_thunderregular";
+    font-size: 16px;
+    font-weight: 400;
+    color: #171616;
+    padding-bottom: 10px;
+}
+    /* ==========================================================================
+Preloader Style
+========================================================================== */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: #24242a;
+}
+.preloader i {
+  color: #fff;
+  position: absolute;
+  font-size: 36px;
+  line-height: 36px;
+  top: 50%;
+  left: 50%;
+  height: 36px;
+  width: 36px;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: inline-block;
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+footer {
+  text-align: center;
+  border-top: 1px solid #333;
+  padding: 10px 0;
+  background-color: #fbed1a; 
+}
+footer h6 {
+  color: #171616;
+}
+.copyright {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+}
+footer .social{
+    margin: 10px 0;
+}
+footer .social a {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+footer .social a:hover,
+footer .social a:focus,
+footer .social a:active {
+    background-color: none;
+}
+/* ==========================================================================
+Modals
+========================================================================== */
+.modal-content {
+    padding-top: 15px;
+    text-align: center;
+    border: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #fbed1a;
+}
+.modal-content p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.modal-header {
+        border-bottom: 0px solid #000;
+}
+
+.modal-footer {
+    
+    border-top: 1px solid #000;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #999;
+    font-family: "a_love_of_thunderregular","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.modal-content img {
+    margin:0 auto;
+}
+.coments{
+    color: #000;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 34px;
+}
+.img-centered {
+    margin: 0 auto;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #cd7d00;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fbed1a;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+@media screen and (min-width: 360px) {
+ /*-- Sliders --*/
+  #owl-hero .item .caption h1 {
+    font-size: 44px;
+    margin-top: 10px;
+ }
+  #owl-hero .item .caption i {
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 560px) {
+ /*-- Sliders --*/
+  #owl-hero .item .caption h1 {
+    font-size: 56px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    line-height: 64px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px){
+
+    .navbar-brand {
+        float: left;
+        padding: 0;
+    }
+    .navbar-default {
+        padding: 15px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        background-color: #110e0d;
+        background-repeat: no-repeat;
+    }
+    .navbar-default .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+    }
+/*-- Contact --*/
+    #contact h2 {
+      font-size: 55px;
+      color: #000;
+    }
+    .contacto {
+      padding-top: 50px
+    }
+    #contact {
+      padding:130px 0 30px 0;
+      background-image: url(../img/contacto_back.jpg);
+      background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 992px){
+/*-- Sliders --*/
+    #owl-hero .item .caption h1 {
+      font-size: 56px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      line-height: 64px;
+      text-transform: uppercase;
+    }
+    #owl-hero .item .caption i {
+      position: absolute;
+      bottom: 50%;
+      right: 10%;
+      left: 10%;
+      text-align: center;
+  }  
+}
+@media screen and (min-width: 1200px){
+
+
+}

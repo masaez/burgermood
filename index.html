@@ -1,1 +1,543 @@
-<h1>Pronto vuelve nuestro sitio!!</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+
+    <title>Burger Mood</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Bootstrap Css -->
+    <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link href='img/favi.ico' type='img/x=icon' rel="shortcut icon">
+    <!-- Custom CSS -->
+    <link href="css/bm.css" rel="stylesheet">
+    <!-- Style -->
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+     
+    fbq('init', '441414252695447');
+    fbq('track', “PageView”);
+
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=441414252695447&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body id="page-top">
+    <!-- Preloader
+	============================================= -->
+    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+    <!-- Header
+	============================================= -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bm-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top" title="Burger Mood">
+                    <img class="hidden-xs img-responsive" src="img/logo/logo.png" alt="BurgerMood">
+                    <img class="visible-xs img-responsive" src="img/logo/burgermood.png" alt="BurgerMood">
+                </a>
+            </div>
+            <!-- nav links -->
+            <div class="collapse navbar-collapse" id="bm-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li><a href="#menu" class="page-scroll">Menú</a></li>
+                <li>
+                    <a class="page-scroll" href="#Modal5" data-toggle="modal">Franquicias</a>
+                </li>   
+                <li>
+                    <a class="page-scroll" href="#Modal6" data-toggle="modal">Empleos</a>
+                </li> 
+                    <li><a href="#contact" class="page-scroll">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start Carousel -->
+    <div id="owl-hero" class="owl-carousel owl-theme">
+        <div class="item" style="background-image: url('img/sliders/001.jpg');">
+            <div class="caption">
+                <h1>HECHAS EN EL LOCAL TODOS LOS DIAS</h1>
+                <a href="#Modal1" data-toggle="modal">
+                   <i class="fa fa-plus-circle fa-4x"></i>
+                </a>
+                <div class="hidden-xs comentario">
+                <h4>``LAS MEJORES HAMBURGUESAS QUE PROBÉ. BASICAMENTE ESO´´</h4>
+                <h5>LUCAS B, TRIP ADVISOR</h5>
+                </div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/sliders/002.jpg');)">
+            <div class="caption">
+                <h1>CORTADAS A MANO</h1>
+                <a href="#Modal2" data-toggle="modal">
+                   <i class="fa fa-plus-circle fa-4x"></i>
+                </a>
+                <div class="hidden-xs comentario">
+                <h4>``PÁRRAFO APARTE PARA LAS ADICTIVAS PAPAS FRITAS´´</h4>
+                <h5>Sebastian Laffaye, Pagina 12, Radar</h5>
+                </div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/sliders/003.jpg');)">
+            <div class="caption">
+                <h1>CROCANTE, CROCANTE Y CROCANTE</h1>
+                <a href="#Modal3" data-toggle="modal">
+                   <i class="fa fa-plus-circle fa-4x"></i>
+                </a>
+
+                <div class="hidden-xs comentario">
+                <h4>``COMÍ UNA HAMBURGUESA CON BACON Y CHEDDAR, BUEN TAMAÑO, LA CARNE TIPO CASERA Y LO MEJOR EL BACON, ABUNDANTE Y CROCANTE´´</h4>
+                <h5>Marchelone, Guia Oleo</h5>
+                </div>
+            </div>
+        </div>
+        <div class="item" style="background-image: url('img/sliders/004.jpg');">
+            <div class="caption">
+                <h1>ELIGE TU PROPIA BURGER</h1>
+                <a href="#Modal4" data-toggle="modal">
+                   <i class="fa fa-plus-circle fa-4x"></i>
+                </a>
+                 <div class="hidden-xs comentario">
+                <h4>``...TAMPOCO ES UN DATO MENOR LA GRAN VARIEDAD QUE TIENEN PARA ELEGIR O DE INGREDIENTES PARA PONERLE´´</h4>
+                <h5>Hernan F, Trip Advisor</h5>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Menu
+	============================================= -->
+    <section id="menu">
+        <div class="container">
+            <h2>MENU</h2>
+            <hr class="light-sep">
+            <div class="services-box">
+                <div class="row">
+                    <h3 class="cuarentena">10% de descuento pagando en efectivo mientras dure la cuarentena</h3>
+                    <div class="col-xs-12 col-md-4 team-menu">
+                        <img src="img/menu/01.png" alt="">
+                        <ul>
+                            <h4>nuestro propio blend de carne vacuna</h4>
+                            <li>Cuate Burger <span>$710</span></li>
+                            <p>Con cheddar, palta, cebolla asada, tomate y spicy ketchup</p>
+
+                            <li>Dijontastic Burger <span>$710</span></li>
+                            <p>queso azul, jamon cocido, huevo a la plancha, rucula, mostaza y miel</p>
+
+                            <li>Huancaina burger  <span>$710</span></li>
+                            <p>queso cheddar, chips de batata, huevo a la plancha, cebolla morada, salsa huancaina</p>
+
+                            <li>Kimchi Burger  <span>$710</span></li>
+                            <p>kimchi casero, tomate en rodajas, lechuga, lactonesa de jalapeños</p>
+
+                            <li>TRIFULCA burger<span>$710</span></li>
+                            <p>queso azul, cheddar, provoleta, cebolla morada y pepinitos</p>
+
+                            <li>Napolitana burger<span>$710</span></li>
+                            <p>provoleta, rucula, tomate y pesto casero</p>
+
+                            <li>FALAFEL Veggie Burger<span>$610</span></li>
+                            <p>Tomate asado, pepinitos, cebolla morada, yogur, semillas de sésamo</p>
+
+                            <li>Big Mood <span>$950</span></li>
+                            <p>dos medallones de 160gr. cada una, doble cheddar, bacon, lechuga, cebolla crispy y salsa big mood</p>
+
+                            
+                            <li>burger del día<span>$670</span></li>
+                            <p>con side fries</p>
+
+                          
+                  <img src="img/menu/03.png" alt="">
+                    <ul>
+                        <li>CLASSIC BURGER + PAPAS<span>$620</span><p> Lechuga, tomate y pepino</p></li>
+                        <li>CHEESEBURGER + PAPAS<span>$640</span><p> Doble Cheddar</p></li>
+                        <li>BACON CHEESE + PAPAS<span>$800</span><p> cheddar y bacon</p></li>
+                        <li>Doble CHEESE + PAPAS<span>$800</span><p> dos medallones de 100gr. cada uno con doble cheddar</p></li>
+                    </ul>
+                            
+                        </ul>
+                        
+                                                
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 team-menu">
+                        <img src="img/menu/02.png" alt="">
+                        <ul>
+                            <li>Single <span>$480</span><p>Con lechuga, tomate y una salsa a elección</p></li>
+                            <li>Doble <span>$680</span><p>Con lechuga, tomate y una salsa a elección</p></li>
+                            
+                            <li>Sidefries <span>$150</span></li>
+
+                            
+                            <li>Toppings Basicos <span>$50</span></li>
+                                <p>Pepinillos caseros</p>
+                                <p>Huevo a la plancha</p>
+                                <p>Rúcula</p>   
+                                <p>Cebolla asada</p>   
+                                <p>jalapeño pickles</p>  
+                                <p>chips de batata</p> 
+                            <li>Toppings Premium<span>$100</span></li>
+                                 <p>Bacon</p>
+                                 <p>Jamón</p>
+                                 <p>Palta</p>
+                                 <p>Doble Cheddar</p>
+                                 <p>Provoleta</p>
+                                 <p>queso azul</p>
+                            <li>Una salsa a elección<span>Sin cargo</span></li>
+                                <p>Mostaza Casera</p>
+                                <p>Spicy Ketchup</p>
+                                <p>Mayonesa de chimi</p>
+                                <p>Mostaza y miel</p>
+                                <p>Barbacoa</p>
+                                <p>Lactonesa</p>
+                                
+                                
+                        </ul>
+                     
+                        <img src="img/menu/05.png" alt="">
+                        <ul>
+                            <li>Side Fries<span>$150</span></li>
+                            <li>Solas<span>$350</span></li>
+                            <li>a caballo<span>$470</span><p> con 2 huevos a la plancha y verdeo</p></li>
+                            <li>Papas provenzal<span>$470</span><p> con provolone rallado, ajo y perejil</p></li>
+                            <li>cheddar, bacon y verdeo<span>$550</span></li>
+                            
+                          
+                        </ul>
+
+
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 team-menu">
+                          
+                  
+
+
+                    <img src="img/menu/00.png" alt="">
+                    
+                    <ul>                            
+                        <li>Honey Chicken Sandwich<span>$660</span></li>
+                            <p>SANDWICH DE POLLO A LA PLANCHA, RÚCULA Y TOMATE EN PAN DE MOLDE CON ADEREZO DE MOSTAZA Y MIEL</p>
+                        
+
+                    </ul>
+
+                    <ul>                            
+                        <li>Porky Cheese Steak<span>$730</span></li>
+                            <p>BONDIOLA BRASEADA CON BARBACOA, CEBOLLAS DULCES, QUESO PROVOLETA Y CEBOLLA MORADA</p>
+                        
+
+                    </ul>
+
+                    <ul>                            
+                        <li>Fried Chicken Sandwich<span>$660</span></li>
+                            <p>SANDWICH DE POLLO FRITO, COLESLAW, TOMATE EN RODAJAS Y NUESTRA LACTONESA
+</p>
+                        
+
+                    </ul>
+
+
+                    <img src="img/menu/07.png" alt="">
+                    
+                    <ul>                            
+                        <li>Caesar con pollo<span>$630</span></li>
+                            <p>Pollo a la plancha, lechuga, croutons, queso provoleta y nuestro aderezo caesar</p>
+                        
+
+                    </ul>
+                    
+                    
+                    
+                          <img src="img/menu/04.png" alt="">
+                        <ul>
+                             <li>aguas con/sin gas<span>$170</span></li>
+                            <li>Aguas saborizadas<span>$190</span></li>
+                             <li>Gaseosas linea coca cola<span>$190</span></li>
+                             <li>Limonada<span>$230</span></li>
+
+                           
+                           
+                            <li>Porron<span>$300</span></li>
+                           
+                        </ul>
+
+                        
+                    <img src="img/menu/06.png" alt="">
+                    <ul>
+                        <li>Volcan de chocolate  <span>$240</span></li>
+                        <li>Helados Melona  <span>$350</span></li>
+                        
+
+                        
+                   </ul>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Franquicias
+	============================================= -->
+
+    <!-- Contact Us
+	============================================= -->
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Get into the Mood</h2>
+                   <!-- <img src="img/contacto/line-contacto.png"  alt="">-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="contacto">
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                       
+                        <p>Tucuman 271, Microcentro</p>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        
+                        <p>4312 8337</p>
+                    </div>
+                   
+                    <div class="col-xs-4 col-sm-4 col-md-4">
+                        
+                        <p>contacto@burgermood.com.ar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contacto">
+                    
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                       
+                        <p>Lunes a Viernes de 11.30 a 16.30 para comer en el local, take away y delivery - 16.30 a 23.00 solo take away y delivery</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                    
+                   <img src="img/contacto/line-contacto.png"  alt="">
+                </div>
+            
+        </div>
+    </section>
+    <!-- Footer
+	============================================= -->
+    <footer>
+        <div class="container">
+            <div class="social">
+               <!-- <a href="https://twitter.com/burgermood" target="_blank"><img src="img/footer/tw.png">
+                </a>-->
+                <a href="https://www.facebook.com/burgermood" target="_blank"><img src="img/footer/fb.png">
+                </a>
+                <a href="https://www.instagram.com/burgermood/" target="_blank"><img src="img/footer/in.png">
+                </a>
+            </div>
+            <h6 class="copyright">Copyright &copy; Burger Mood</h6>
+        </div>
+    </footer>
+
+    <!--  MODALS 
+    ============================================= -->
+    <!-- Modal 1 -->
+    <div id="Modal1" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Usamos 3 cortes de carne picada 100% vacuna</h3>
+          </div>
+          <div>
+            <img class="img-responsive" src="img/popup/001.jpg">
+            <img class="img-responsive" src="img/popup/hamb.png">
+          </div>
+          <div class="modal-body">
+            <p>Las hacemos a mano todos los días. 160 Grs de puro placer. Las cocinamos a la plancha sabiendo que te gustan cocidas.</p>
+            <p class="coments">
+            “El punto de cocción justo: nada roja, pero nada seca, la jugosidad justa. Nada quemada por fuera. Es perfecta.”</p>
+            <p class="coments">Bianca P, Yelp.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="Modal2" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Lavamos, pelamos y cortamos nuestras papas a mano</h3>
+          </div>
+          <div>
+            <img class="img-responsive img-centered" src="img/popup/002.jpg">
+            <img class="img-responsive img-centered" src="img/popup/papas.png">
+          </div>
+          <div class="modal-body">
+            <p>Las freímos en un doble baño de fritura. Crocantes por fuera y “hechas puré” por dentro es nuestro objetivo!</p>
+            <p class="coments">
+            “Lejos de ser de las precongeladas, se cocinan en una doble fritura, logrando que estén siempre calientes y crocantes cuando llegan a la mesa.”</p>
+            <p class="coments">Sebastian Laffaye, Pagina 12, Radar.</p>                  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- Modal 3 -->
+    <div id="Modal3" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Que podemos decir. Amamos la panceta!</h3>
+          </div>
+          <div>
+            <img class="img-responsive img-centered" src="img/popup/003.jpg">
+            <img class="img-responsive img-centered" src="img/popup/bacon.png">
+          </div>
+          <div class="modal-body">
+            <p>La cocinamos hasta que se dore y la dejamos desgrasar para que quede seca y crujiente.</p>
+            <p class="coments">
+            “Estaba en su punto justo de crocante, tenía suficiente y era de muy buena calidad, con poca grasa.”</p>
+            <p class="coments">The Burger Life.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- Modal 4 -->
+    <div id="Modal4" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Ingredientes frescos!</h3>
+          </div>
+          <div>
+            <img class="img-responsive img-centered" src="img/popup/004.jpg">
+            <img class="img-responsive img-centered" src="img/popup/ingredientes.png">
+          </div>
+          <div class="modal-body">
+            <p>Pepinitos encurtidos por nosotros. Aderezos exquisitos elaborados en nuestra cocina.
+                Armate la hamburguesa de tus sueños!</p>
+            <p class="coments">
+            “Vos podés tunear la hamburguesa a tu gusto, eligiendo el tipo de queso, los acompañamientos y hasta la salsa.”</p>
+            <p class="coments">La mejor hamburguesa de Bs As, Facebook.</p>
+                                    
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Franquicias -->
+    <div id="Modal5" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">¡Proximamente!</h3>
+          </div>
+          <div>
+            <img class="img-responsive img-centered" src="img/popup/005.jpg">
+            <img class="img-responsive img-centered" src="img/popup/bacon.png">
+          </div>
+          <div class="modal-body">
+            <p class="coments">
+            Para más información no dudes en contactarte con nosotros. <br>Escribinos a <a class="mail" href="mailto:franquicias@burgermood.com.ar">franquicias@burgermood.com.ar </a></p>                 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END MODALS -->
+
+<!-- Modal Trabaja -->
+    <div id="Modal6" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Se parte de Burger Mood</h3>
+          </div>
+          <div>
+            <img class="img-responsive img-centered" src="img/popup/006.jpg">
+            <img class="img-responsive img-centered" src="img/popup/hamb.png">
+          </div>
+          <div class="modal-body">
+            <p class="coments">
+            ¿Queres trabajar con nosotros? Mandanos tu CV a <a class="mail" href="mailto:cv@burgermood.com.ar">cv@burgermood.com.ar </a>y te responderemos a la brevedad. ¡Muchas gracias!</p>                 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- END MODALS -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-assets/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS PLUGINS -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
+    <script src="plugins/WOW/dist/wow.min.js"></script>
+    
+</body>
+
+</html>
